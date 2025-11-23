@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: Manuel Lopez's Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Manuel López Pérez
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -22,9 +22,8 @@ author: Some Person
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - My other blog: "https://ironhackers.es"
+  GitHub: "https://github.com/manulqwerty"
 
 ################
 # --- Logo --- #
@@ -50,14 +49,11 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  rss: true
+  email: "manulqwerty@prontonmail.com"  # Replace with your email
+  github: manulqwerty
+  linkedin: manuel-lopez-perez
+#  twitter: your-twitter
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -86,8 +82,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
-
+rss-description: "HTB and CTF writeups, hacking tutorials, AI & cybersecurity reasearchs, DFIR and general infosec content by Manuel López Pérez"
 ###########################
 # --- General options --- #
 ###########################
@@ -102,7 +97,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "manulqwerty.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -128,7 +123,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "cybersecurity, ethical hacking, DFIR, writeups, CTF, HTB, hacking tutorials, AI security, infosec, Manuel Lopez"
 
 ######################################
 # --- Colours / background image --- #
@@ -136,17 +131,20 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#FAFBFF"          # Blanco con matiz azulado
+text-col: "#2D3748"          # Gris azulado oscuro
+link-col: "#4C8BEA"          # Azul pastel vibrante (color principal)
+hover-col: "#5A5A5A"         # Gris neutro suave, buen contraste sin ser agresivo
+
+navbar-col: "#EDF2FF"        # Azul pastel muy suave
+navbar-text-col: "#1A202C"   # Gris oscuro legible
+navbar-border-col: "#C3D1EE" # Azul-gris para separar sutilmente
+
+footer-col: "#EDF2FF"
+footer-text-col: "#4A5568"
+footer-link-col: "#4C8BEA"
+footer-hover-col: "#5A5A5A"  # Gris en hover también aquí
+
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
