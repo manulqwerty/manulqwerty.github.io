@@ -267,6 +267,4 @@ This cheat sheet covers:
 
 Useful for HTB, OSCP, and any CTF with lateral movement.
 
-```
-
 ---
